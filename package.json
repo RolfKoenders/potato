@@ -2,8 +2,9 @@
   "name": "couchpotato-slack",
   "version": "0.1.0",
   "description": "Slack interface for couchpotato",
-  "main": "index.js",
+  "main": "lib/couchpotato-bot.js",
   "scripts": {
+    "start": "node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,9 @@
   ],
   "author": "Rolf Koenders <@RolfKoenders>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme"
+  "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme",
+  "dependencies": {
+    "request": "^2.74.0",
+    "slackbots": "^0.5.2"
+  }
 }
