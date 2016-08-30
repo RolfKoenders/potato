@@ -15,7 +15,13 @@ let conf = convict({
             format: String,
             default: 'Potato',
             env: 'CB_SLACK_NAME'
-        }
+        },
+		channel: {
+			doc: 'Name of the channel where the bot will live',
+			format: String,
+			default: '',
+			env: 'CB_SLACK_CHNAME'
+		}
     },
     couch: {
         host: {
