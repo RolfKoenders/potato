@@ -5,6 +5,7 @@
   "main": "lib/couchpotato-bot.js",
   "scripts": {
     "start": "node bin/bot.js",
+    "pretest": "gulp lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +21,14 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme",
   "dependencies": {
-    "imdb-api": "^1.3.3",
+    "convict": "^1.4.0",
     "omdb": "^0.7.0",
     "request": "^2.74.0",
     "slackbots": "^0.5.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-xo": "^0.12.0",
+    "xo": "^0.16.0"
   }
 }

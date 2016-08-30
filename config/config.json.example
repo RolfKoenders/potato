@@ -1,0 +1,11 @@
+{
+	"bot": {
+		"token": "xoxb-XXXX-XXXX",
+		"name": "Coupo"
+	},
+	"couch": {
+		"host": "127.0.0.1",
+		"port": "5050",
+		"key": "XXXX"
+	}
+}
