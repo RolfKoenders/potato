@@ -1,3 +1,4 @@
 node_modules
 token.js
 npm-debug.log
+config/config.json
