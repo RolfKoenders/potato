@@ -1,7 +1,8 @@
 {
 	"bot": {
 		"token": "xoxb-XXXX-XXXX",
-		"name": "Coupo"
+		"name": "coupo",
+		"channel": "movies" // Optional (Watch only in this channel for messages)
 	},
 	"couch": {
 		"host": "127.0.0.1",

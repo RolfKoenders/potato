@@ -5,7 +5,7 @@ let convict = require('convict');
 let conf = convict({
 	bot: {
 		token: {
-			doc: 'Slack bot token',
+			doc: 'Slackbot token',
 			format: String,
 			default: null,
 			env: 'CB_SLACK_KEY'
