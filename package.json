@@ -5,9 +5,7 @@
   "main": "lib/couchpotato-bot.js",
   "scripts": {
 		"precommit": "gulp lint",
-		"prepush": "npm test",
-    "start": "node bin/bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/bot.js"
   },
   "repository": {
     "type": "git",
