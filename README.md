@@ -41,3 +41,6 @@ If a config file is not ideal for your setup use environment variables. You can 
 | Couchpotato server hostname/ip | CB_HOST | ✓ |
 | Couchpotato server port | CB_PORT | ✓ |
 | Couchpotato API key | CB_COUCH_KEY | ✓ |
+
+### License
+[MIT](https://opensource.org/licenses/MIT)

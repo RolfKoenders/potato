@@ -1,8 +1,9 @@
 {
   "name": "couchpotato-slack",
   "version": "0.1.0",
-  "description": "Slack interface for couchpotato",
+  "description": "Slackbot for couchpotato",
   "main": "lib/couchpotato-bot.js",
+	"private": true,
   "scripts": {
 		"precommit": "gulp lint",
     "start": "node bin/bot.js"
@@ -17,7 +18,7 @@
     "couchpotato"
   ],
   "author": "Rolf Koenders <@RolfKoenders>",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme",
   "dependencies": {
     "convict": "^1.4.0",
