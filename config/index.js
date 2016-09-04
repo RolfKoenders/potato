@@ -45,9 +45,7 @@ let conf = convict({
 	}
 });
 
-let configFile = require('./config/config.json');
-
-conf.loadFile(configFile);
+conf.loadFile('./config/config.json');
 conf.validate({strict: true});
 
 module.exports = conf;
