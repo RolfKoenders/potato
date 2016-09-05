@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "Slackbot for couchpotato",
   "main": "lib/couchpotato-bot.js",
-	"private": true,
+  "private": true,
   "scripts": {
-		"precommit": "gulp lint",
-    "start": "node bin/bot.js"
+    "precommit": "gulp lint",
+    "prepush": "npm test",
+    "start": "node bin/bot.js",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -27,9 +29,12 @@
     "slackbots": "^0.5.2"
   },
   "devDependencies": {
+    "ava": "^0.16.0",
     "gulp": "^3.9.1",
+    "gulp-ava": "^0.14.1",
     "gulp-xo": "^0.12.0",
     "husky": "^0.11.7",
+    "run-sequence": "^1.2.2",
     "xo": "^0.16.0"
   }
 }
