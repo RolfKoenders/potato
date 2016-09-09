@@ -37,7 +37,6 @@ If a config file is not ideal for your setup use environment variables. You can 
 |-------------|-----|----------|
 | The slack token for this slackbot | CB_SLACK_KEY | ✓ |
 | The name of the slackbot | CB_SLACK_NAME | ✓ |
-| Only listen for messages in this channel | CB_SLACK_CHNAME | |
 | Couchpotato server hostname/ip | CB_HOST | ✓ |
 | Couchpotato server port | CB_PORT | ✓ |
 | Couchpotato API key | CB_COUCH_KEY | ✓ |

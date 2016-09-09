@@ -24,6 +24,7 @@
   "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme",
   "dependencies": {
     "convict": "^1.4.0",
+    "lodash": "^4.15.0",
     "omdb": "^0.7.0",
     "request": "^2.74.0",
     "slackbots": "^0.5.2"

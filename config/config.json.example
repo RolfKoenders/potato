@@ -1,8 +1,7 @@
 {
 	"bot": {
 		"token": "xoxb-XXXX-XXXX",
-		"name": "coupo",
-		"channel": "movies" // Optional (Watch only in this channel for messages)
+		"name": "potato" // give it the same name as you have configured in the integration settings
 	},
 	"couch": {
 		"host": "127.0.0.1",
