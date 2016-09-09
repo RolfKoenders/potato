@@ -53,7 +53,7 @@ test.cb('Omdb wrapper search method will return me an array of 10 movies when i 
 test.cb('Omdb wrapper search method will return an error when a movie cannot be found', t => {
 	omdbApi.search({ movieTitle: 'NOTEXISTINGMOVIETITLE'}, (err, movies) => {
 		if (err) {
-			t.is(err.code, 'no_movie_found', 'Error code for movie_not_found is not correct.')
+			t.is(err.code, 'no_movies_found', 'Error code for movie_not_found is not correct.')
 		} else {
 			t.fail();
 		}
