@@ -16,7 +16,7 @@ gulp.task('lint', () => {
 		'gulpfile.js',
 		'config/*.js',
 		'bin/bot.js',
-		'lib/*.js'
+		'lib/**/*.js'
 	]).pipe(xo({quiet: true}));
 });
 
