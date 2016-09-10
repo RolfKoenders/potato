@@ -2,7 +2,7 @@
   "name": "couchpotato-slack",
   "version": "0.2.0",
   "description": "Slackbot for couchpotato",
-  "main": "lib/couchpotato-bot.js",
+  "main": "lib/bot.js",
   "private": true,
   "scripts": {
     "precommit": "gulp lint",

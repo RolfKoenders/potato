@@ -1,6 +1,7 @@
 'use strict';
 
-let convict = require('convict');
+const fs = require('fs');
+const convict = require('convict');
 
 let conf = convict({
 	bot: {
@@ -39,7 +40,12 @@ let conf = convict({
 	}
 });
 
-conf.loadFile('./config/config.json');
+try {
+	fs.accessSync(`${__dirname}/config.json`);
+	conf.loadFile(`${__dirname}/config.json`);
+} catch (err) {
+}
+
 conf.validate({strict: true});
 
 module.exports = conf;

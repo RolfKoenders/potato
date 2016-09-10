@@ -6,7 +6,7 @@
 */
 
 let config = require('../config');
-let CouchpotatoBot = require('../lib/couchpotato-bot');
+let CouchpotatoBot = require('../lib/bot');
 
 let bot = new CouchpotatoBot(config.getProperties());
 bot.run();
