@@ -20,7 +20,7 @@ let conf = convict({
 	},
 	couch: {
 		host: {
-			doc: 'Couchpotato hostname',
+			doc: 'Couchpotato host including protocol (http/https)',
 			format: String,
 			default: '127.0.0.1',
 			env: 'CB_HOST'
