@@ -48,16 +48,28 @@ If a config file is not ideal for your setup use environment variables. You can 
 | Couchpotato API key | CB_COUCH_KEY | ✓ |
 
 ## Usage
-There are 3 types of commands the bot will listen to. Channel, Direct and Admin commands.
+Mr. potato is listening to the following commands / messages. It can depend per command where its available. Most of them work in a channel but some only per direct message.
 
-### Channel commands
-The channel commands is where the bot is listening for when he is invited to a channel.
+### Search
+**Available in:** Channel & Direct message.
 
-### Direct commands
-Direct commands are send in a private message to the bot.
+To search for a movie send the following as a private message: `search movie harry potter` This will return a list with the movies it found. _(Example gif on top of the README)._ The list returned also shows the IMDB id. This identifier can be send with the download movie command.
+
+### Download
+**Available in:** Channel & Direct message.
+
+To add a movie to the wanted list its either possible to send `download movie Bad Boys II` it will add the first search result. _When using a movie title with the download command try to be as specific as possible._ Or send the IMDB identifier `download movie tt0172156`.
+
+### help
+**Available in:** Direct message.
+
+If you cannot access this readme for documentation and needs some help with some commands. Ask Mr. Potato for some help by sending `help` in a direct message. It will respond with the available commands.
 
 ### Admin commands
-Admin commands are send in a private message to the bot, but the bot will only react on it if a admin user has send the message. Otherwise its ignored.
+Admin commands are send in a private message to the bot, but the bot will only react on it if a admin user has send the message.
+
+#### Version
+By sending `!version` it will answer with the current version of the bot your talking to and the version of couchpotato which is configured.
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
