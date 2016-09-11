@@ -53,9 +53,6 @@ There are 3 types of commands the bot will listen to. Channel, Direct and Admin 
 ### Channel commands
 The channel commands is where the bot is listening for when he is invited to a channel.
 
-#### Search and add movie to couchpotato
-The following example shows
-
 ### Direct commands
 Direct commands are send in a private message to the bot.
 
