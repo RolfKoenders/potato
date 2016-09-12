@@ -1,5 +1,5 @@
 {
-  "name": "couchpotato-slack",
+  "name": "potato",
   "version": "0.2.0",
   "description": "Slackbot for couchpotato",
   "main": "lib/bot.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/RolfKoenders/couchpotato-slack.git"
+    "url": "git+ssh://git@github.com:RolfKoenders/potato.git"
   },
   "keywords": [
     "slack",
@@ -21,7 +21,7 @@
   ],
   "author": "Rolf Koenders <@RolfKoenders>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/RolfKoenders/couchpotato-slack#readme",
+  "homepage": "https://github.com/RolfKoenders/potato#readme",
   "dependencies": {
     "convict": "^1.4.0",
     "lodash": "^4.15.0",
