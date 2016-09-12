@@ -1,6 +1,6 @@
 
 # Couchpotato Slackbot
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?maxAge=2592000)](https://github.com/RolfKoenders/potato)
 
 > Add movies to your couchpotato wanted list with just a simple slack message!
 
