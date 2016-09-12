@@ -7,10 +7,10 @@
 ![search and download example](assets/images/search-download.gif)
 
 ## Features
-At the moment Mr. Potato has these features.
+Mr. Potato has these features:
 - Search for movies
-- Add a movie by title ('download movie Frozen')
-- Add a movie by IMDB id ('download movie tt2788732')
+- Add a movie to the wanted list by title ('download movie Frozen')
+- Add a movie to the wanted list by IMDB id ('download movie tt2788732')
 
 ## Run
 To start the bot simply run the start script inside the bin directory:
