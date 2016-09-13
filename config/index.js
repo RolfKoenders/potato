@@ -1,8 +1,9 @@
 'use strict';
 
-const fs = require('fs');
 const convict = require('convict');
+const pathExists = require('path-exists');
 
+let confFile = `${__dirname}/config.json`;
 let conf = convict({
 	bot: {
 		token: {
@@ -40,10 +41,8 @@ let conf = convict({
 	}
 });
 
-try {
-	fs.accessSync(`${__dirname}/config.json`);
-	conf.loadFile(`${__dirname}/config.json`);
-} catch (err) {
+if (pathExists.sync(confFile)) {
+	conf.loadFile(confFile);
 }
 
 conf.validate({strict: true});
