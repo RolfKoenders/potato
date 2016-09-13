@@ -3,8 +3,8 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![Build Status](https://travis-ci.org/RolfKoenders/potato.svg?branch=master)](https://travis-ci.org/RolfKoenders/potato)
 [![Beerpay](https://beerpay.io/RolfKoenders/potato/badge.svg?style=flat)](https://beerpay.io/RolfKoenders/potato)
-[![Docker Pulls](https://img.shields.io/docker/pulls/rolfkoenders/potato.svg?maxAge=2592000)](https://hub.docker.com/r/rolfkoenders/potato/)
-[![Docker Automated buil](https://img.shields.io/docker/automated/rolfkoenders/potato.svg?maxAge=2592000)](https://hub.docker.com/r/rolfkoenders/potato/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rolfkoenders/potato.svg)](https://hub.docker.com/r/rolfkoenders/potato/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/rolfkoenders/potato.svg)](https://hub.docker.com/r/rolfkoenders/potato/)
 
 > Add movies to your couchpotato wanted list with just a simple slack message!
 
