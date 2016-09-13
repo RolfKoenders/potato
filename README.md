@@ -24,7 +24,7 @@ $ ./bin/start
 Or `npm install` and `npm start` to launch the bot!
 
 ### Docker
-Pull the latest docker image from the [Dokcer Hub](https://hub.docker.com/r/rolfkoenders/potato/) and run it. The environment variables you need to pass are listed below.
+Pull the latest docker image from the [Docker Hub](https://hub.docker.com/r/rolfkoenders/potato/) and run it. The environment variables you need to pass are listed below.
 
 There is a dockerfile if you want to build a docker image yourself.
 Run the following inside the project directory to build the image:
