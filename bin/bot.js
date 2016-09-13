@@ -5,9 +5,9 @@
  * Couchpotato SlackBot launch script.
 */
 
+const Bot = require('slackbotify');
 const config = require('../config');
 const MessageHandlers = require('../lib/handlers');
-const Bot = require('../lib/bot');
 
 let bot = new Bot(config.getProperties());
 
