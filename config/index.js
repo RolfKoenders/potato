@@ -42,7 +42,7 @@ let conf = convict({
 	}
 });
 
-if (pathExists.sync(confFile))
+if (pathExists.sync(confFile)) {
 	conf.loadFile(confFile);
 }
 
