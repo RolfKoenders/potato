@@ -1,7 +1,10 @@
 
 # Couchpotato Slackbot
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-[![Build Status](https://travis-ci.org/RolfKoenders/potato.svg?branch=master)](https://travis-ci.org/RolfKoenders/potato) [![Beerpay](https://beerpay.io/RolfKoenders/potato/badge.svg?style=flat)](https://beerpay.io/RolfKoenders/potato)
+[![Build Status](https://travis-ci.org/RolfKoenders/potato.svg?branch=master)](https://travis-ci.org/RolfKoenders/potato)
+[![Beerpay](https://beerpay.io/RolfKoenders/potato/badge.svg?style=flat)](https://beerpay.io/RolfKoenders/potato)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rolfkoenders/potato.svg?maxAge=2592000)](https://hub.docker.com/r/rolfkoenders/potato/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/rolfkoenders/potato.svg?maxAge=2592000)](https://hub.docker.com/r/rolfkoenders/potato/)
 
 > Add movies to your couchpotato wanted list with just a simple slack message!
 
@@ -21,7 +24,9 @@ $ ./bin/start
 Or `npm install` and `npm start` to launch the bot!
 
 ### Docker
-There is a dockerfile to build a docker image.
+Pull the latest docker image from the [Dokcer Hub](https://hub.docker.com/r/rolfkoenders/potato/) and run it. The environment variables you need to pass are listed below.
+
+There is a dockerfile if you want to build a docker image yourself.
 Run the following inside the project directory to build the image:
 ```
 $ docker build -t couchbot .
@@ -30,6 +35,7 @@ And launch it with the following command:
 ```
 $ docker run -d --name couch-slackbot couchbot
 ```
+
 
 ## Configuration
 Configuration of your bot can either be done using a config file or pass environment variables.
