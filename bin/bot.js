@@ -71,4 +71,10 @@ bot.registerHandler({
 	handler: MessageHandlers.couchPotatoHandler.searchMedia
 });
 
+bot.registerHandler({
+	groups: ['channel', 'direct'],
+	match: /do you have suggestions?/i,
+	handler: MessageHandlers.couchPotatoHandler.suggestions
+});
+
 bot.run();
