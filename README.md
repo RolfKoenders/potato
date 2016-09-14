@@ -83,5 +83,8 @@ Admin commands are send in a private message to the bot, but the bot will only r
 #### Version
 By sending `!version` it will answer with the current version of the bot your talking to and the version of couchpotato which is configured.
 
+#### Update
+You can update couchpotato by sending the `!update` command. _Check with `!version` if there is a version available._
+
 ### License
 [MIT](https://opensource.org/licenses/MIT)

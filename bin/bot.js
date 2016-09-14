@@ -60,6 +60,12 @@ bot.registerHandler({
 });
 
 bot.registerHandler({
+	groups: ['admin'],
+	match: /!update/i,
+	handler: MessageHandlers.couchPotatoAdminHandler
+});
+
+bot.registerHandler({
 	groups: ['channel', 'direct'],
 	match: /do i have movie\s(.*)/i,
 	handler: MessageHandlers.couchPotatoHandler.searchMedia
