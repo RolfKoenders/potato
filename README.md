@@ -67,6 +67,11 @@ To search for a movie send the following as a private message: `search movie har
 
 To add a movie to the wanted list its either possible to send `download movie Bad Boys II` it will add the first search result. _When using a movie title with the download command try to be as specific as possible._ Or send the IMDB identifier `download movie tt0172156`.
 
+### Already downloaded?
+**available in:** Channel & Direct message.
+
+Check if a movie is already on the wanted list or downloaded. Send the following message: `do i have movie sausage party`.
+
 ### help
 **Available in:** Direct message.
 

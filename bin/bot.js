@@ -33,6 +33,14 @@ bot.registerHandler({
 
 bot.registerHandler({
 	groups: ['direct'],
+	match: /thanks/ig,
+	handler: function (message, callback) {
+		callback('Your welcome! :innocent:');
+	}
+});
+
+bot.registerHandler({
+	groups: ['direct'],
 	match: /:popcorn:/ig,
 	handler: function (message, callback) {
 		callback('POPCORN! :yum:');
@@ -48,7 +56,13 @@ bot.registerHandler({
 bot.registerHandler({
 	groups: ['admin'],
 	match: /!version/i,
-	handler: MessageHandlers.couchPotatoHandler
+	handler: MessageHandlers.couchPotatoAdminHandler
+});
+
+bot.registerHandler({
+	groups: ['channel', 'direct'],
+	match: /do i have movie\s(.*)/i,
+	handler: MessageHandlers.couchPotatoHandler.searchMedia
 });
 
 bot.run();
