@@ -12,19 +12,19 @@ const MessageHandlers = require('../lib/handlers');
 let bot = new Bot(config.getProperties());
 
 bot.registerHandler({
-	group: 'channel',
+	groups: ['channel', 'direct'],
 	match: /download movie\s(.*)/,
 	handler: MessageHandlers.downloadMovieHandler
 });
 
 bot.registerHandler({
-	group: 'channel',
+	groups: ['channel', 'direct'],
 	match: /search movie\s(.*)/,
 	handler: MessageHandlers.searchMovieHandler
 });
 
 bot.registerHandler({
-	group: 'direct',
+	groups: ['direct'],
 	match: /hi/ig,
 	handler: function (message, callback) {
 		callback('Hi there! :smiley:');
@@ -32,7 +32,7 @@ bot.registerHandler({
 });
 
 bot.registerHandler({
-	group: 'direct',
+	groups: ['direct'],
 	match: /:popcorn:/ig,
 	handler: function (message, callback) {
 		callback('POPCORN! :yum:');
@@ -40,13 +40,13 @@ bot.registerHandler({
 });
 
 bot.registerHandler({
-	group: 'direct',
+	groups: ['direct'],
 	match: 'help',
 	handler: MessageHandlers.helpHandler
 });
 
 bot.registerHandler({
-	group: 'admin',
+	groups: ['admin'],
 	match: /!version/i,
 	handler: MessageHandlers.couchPotatoHandler
 });

@@ -27,7 +27,7 @@
     "lodash": "^4.15.0",
     "omdb": "^0.7.0",
     "request": "^2.74.0",
-    "slackbotify": "^0.1.1",
+    "slackbotify": "*",
     "path-exists": "3.0.0"
   },
   "devDependencies": {
