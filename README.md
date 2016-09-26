@@ -72,7 +72,7 @@ To add a movie to the wanted list its either possible to send `download movie Ba
 
 Check if a movie is already on the wanted list or downloaded. Send the following message: `do i have movie sausage party`.
 
-#### Suggestions?
+### Suggestions?
 **available in:** Channel & Direct message.
 
 You want some suggestions? Send `do you have some suggestions?` to the bot and you will get a nice list of some suggestions.
