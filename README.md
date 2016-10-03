@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/RolfKoenders/potato.svg?branch=master)](https://travis-ci.org/RolfKoenders/potato)
 [![Beerpay](https://beerpay.io/RolfKoenders/potato/badge.svg?style=flat)](https://beerpay.io/RolfKoenders/potato)
 [![Docker Pulls](https://img.shields.io/docker/pulls/rolfkoenders/potato.svg)](https://hub.docker.com/r/rolfkoenders/potato/)
-[![Docker Automated buil](https://img.shields.io/docker/automated/rolfkoenders/potato.svg)](https://hub.docker.com/r/rolfkoenders/potato/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/rolfkoenders/potato.svg)](https://hub.docker.com/r/rolfkoenders/potato/) [![](https://images.microbadger.com/badges/image/rolfkoenders/potato.svg)](https://microbadger.com/images/rolfkoenders/potato "Get your own image badge on microbadger.com")
 
 > Add movies to your couchpotato wanted list with just a simple slack message!
 
@@ -93,3 +93,4 @@ You can update couchpotato by sending the `!update` command. _Check with `!versi
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
+ 
