@@ -52,6 +52,7 @@ If a config file is not ideal for your setup use environment variables. You can 
 | The name of the slackbot | CB_SLACK_NAME | ✓ |
 | Couchpotato server hostname/ip | CB_HOST | ✓ |
 | Couchpotato server port | CB_PORT | ✓ |
+| Couchpotato base url | CB_BASE_URL | ✓ |
 | Couchpotato API key | CB_COUCH_KEY | ✓ |
 
 ## Usage
