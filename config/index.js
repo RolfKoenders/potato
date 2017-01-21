@@ -32,6 +32,12 @@ let conf = convict({
 			default: 5050,
 			env: 'CB_PORT'
 		},
+		baseUrl: {
+			doc: 'Couchpotato base url',
+			format: String,
+			default: '',
+			evn: 'CB_BASE_URL'
+		},
 		key: {
 			doc: 'Couchpotato API Key',
 			format: String,
