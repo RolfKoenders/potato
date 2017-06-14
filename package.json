@@ -7,8 +7,7 @@
   "scripts": {
     "precommit": "gulp lint",
     "prepush": "npm test",
-    "start": "node bin/bot.js",
-    "test": "gulp test"
+    "start": "node bin/bot.js"
   },
   "repository": {
     "type": "git",

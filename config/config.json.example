@@ -4,7 +4,7 @@
 		"name": "potato" // give it the same name as you have configured in the integration settings
 	},
 	"couch": {
-		"host": "127.0.0.1",
+		"host": "127.0.0.1", // Couchpotato host including protocol (http/https)
 		"port": "5050",
 		"key": "XXXX"
 	}
