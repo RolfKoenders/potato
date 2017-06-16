@@ -1,0 +1,8 @@
+{
+    "couch": {
+        "host": "http://123.456.7.89",
+        "port": "5050",
+        "key": "my-unit-test-key",
+        "baseUrl": ""
+    }
+}
