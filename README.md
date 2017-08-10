@@ -28,7 +28,7 @@ Pull the latest docker image from the [Docker Hub](https://hub.docker.com/r/rolf
 There is a dockerfile if you want to build a docker image yourself.
 Run the following inside the project directory to build the image:
 ```
-$ docker build -t couchbot .
+$ docker build -t couchbot ./
 ```
 And launch it with the following command:
 ```
