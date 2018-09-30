@@ -92,11 +92,9 @@ By sending `!version` it will answer with the current version of the bot your ta
 #### Update
 You can update couchpotato by sending the `!update` command. _Check with `!version` if there is a version available._
 
-## Support
+## Donate / Support
 If you like Mr. Potato and it already saved you some time, consinder buying me a coffee to show your support! Thanks in advance!
 [![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rolfkoenders "Buy me a coffee")
 
-
 ### License
 [MIT](https://opensource.org/licenses/MIT)
- 
