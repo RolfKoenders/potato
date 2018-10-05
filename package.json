@@ -5,9 +5,10 @@
   "main": "lib/bot.js",
   "private": true,
   "scripts": {
-    "precommit": "gulp lint",
+    "precommit": "npm run lint",
     "prepush": "npm test",
-    "start": "node bin/bot.js"
+    "start": "node bin/bot.js",
+    "lint": "xo"
   },
   "repository": {
     "type": "git",
@@ -31,11 +32,7 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "gulp": "^3.9.1",
-    "gulp-ava": "^0.14.1",
-    "gulp-xo": "^0.12.0",
     "husky": "^0.11.7",
-    "run-sequence": "^1.2.2",
     "xo": "^0.16.0"
   }
 }
