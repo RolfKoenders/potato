@@ -1,13 +1,14 @@
 {
   "name": "potato",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Slackbot for couchpotato",
   "main": "lib/bot.js",
   "private": true,
   "scripts": {
     "precommit": "gulp lint",
     "prepush": "npm test",
-    "start": "node bin/bot.js"
+    "start": "node bin/bot.js",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -22,20 +23,21 @@
   "license": "MIT",
   "homepage": "https://github.com/RolfKoenders/potato#readme",
   "dependencies": {
-    "convict": "^1.4.0",
-    "lodash": "^4.15.0",
+    "convict": "^4.4.0",
+    "lodash": "^4.17.11",
     "omdb": "^0.7.0",
-    "request": "^2.74.0",
-    "slackbotify": "*",
-    "path-exists": "3.0.0"
+    "path-exists": "3.0.0",
+    "request": "^2.88.0",
+    "slackbotify": "*"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "gulp": "^3.9.1",
+    "ava": "^0.25.0",
+    "gulp": "^4.0.0",
     "gulp-ava": "^0.14.1",
     "gulp-xo": "^0.12.0",
     "husky": "^0.11.7",
+    "nock": "^10.0.0",
     "run-sequence": "^1.2.2",
-    "xo": "^0.16.0"
+    "xo": "^0.23.0"
   }
 }
